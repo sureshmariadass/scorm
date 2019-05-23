@@ -1,0 +1,24 @@
+﻿<?xml version = "1.0"?>
+<manifest identifier="Manifest" version="1.2"
+       xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2"
+       xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd
+                           http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd
+                           http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+
+   <organizations default='BB_windows10'>
+	<organization identifier='BB_windows10'>
+		<title>Windows 10</title>
+		<item identifier='BB_windows10_mod' isvisible="true" identifierref='BB_windows10_res'>
+			<title>Windows 10</title>
+		</item>	
+	</organization>
+
+</organizations>
+   <resources>
+		<resource identifier='BB_windows10_res' type='webcontent' href='course/index.html?type=scorm' adlcp:scormtype='sco'>
+			<file href='index.html'/>
+		</resource>
+	</resources>
+</manifest>

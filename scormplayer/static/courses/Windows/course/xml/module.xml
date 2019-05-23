@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<course title="Windows 10" id="BB_windows10">
+		<page id="1" displayText="Module 01: Introducton" link="://view.vzaar.com/9040500/player" type="html" keywords="Introducton" tooltip="Introducton"/>
+		<page id="2" displayText="Module 02: Getting Around in Windows 10" link="://view.vzaar.com/9040117/player" type="html" keywords="Getting Around in Windows 10" tooltip="Getting Around in Windows 10"/>
+		<page id="3" displayText="Module 03: Login Options" link="://view.vzaar.com/9040189/player" type="html" keywords="Login Options" tooltip="Login Options"/>
+		<page id="4" displayText="Module 04: Cortana" link="://view.vzaar.com/9040221/player" type="html" keywords="Cortana" tooltip="Cortana"/>
+		<page id="5" displayText="Module 05: Task View" link="://view.vzaar.com/9040244/player" type="html" keywords="Task View" tooltip="Task View"/>	
+		<page id="6" displayText="Module 06: Edge" link="://view.vzaar.com/9040299/player" type="html" keywords="Edge" tooltip="Edge"/>
+		<page id="7" displayText="Module 07: Windows Apps and Store" link="://view.vzaar.com/9040321/player" type="html" keywords="Windows Apps and Store" tooltip="Windows Apps and Store"/>
+		<page id="8" displayText="Module 08: Customization" link="://view.vzaar.com/9040464/player" type="html" keywords="Customization" tooltip="Customization"/>
+		
+		
+</course>
+
+
+

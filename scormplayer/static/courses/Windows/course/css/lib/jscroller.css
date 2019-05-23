@@ -1,0 +1,199 @@
+.scroll-pane {
+	width: 227px;
+	height: 110px;
+	overflow: auto;
+	float: left;
+}
+
+
+.jScrollPaneContainer {
+	position: relative;
+	overflow: hidden;
+	z-index: 1;
+}
+
+.jScrollPaneTrack {
+	background: #DAD4CF;
+	position: absolute;
+	cursor: pointer;
+	right: 0;
+	top: 0;
+	height: 100%;
+	border-width:0px 0px 0px 0px;
+	border-color:#5D0000;
+	border-style:solid;
+	margin:0px 0px 1px;
+	padding:0px;
+	
+	
+}
+.jScrollPaneDrag {
+	position: absolute;
+	background: #696767;
+	cursor: pointer;
+	overflow: hidden;
+	border: 1px solid #696767;
+	margin:0px 0px 0px 0px;
+	
+}
+.jScrollPaneDragTop {
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+}
+.jScrollPaneDragBottom {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	overflow: hidden;
+}
+a.jScrollArrowUp {
+	display: block;
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	right: 0;
+	text-indent: -2000px;
+	overflow: hidden;
+	background: url("../../images/osx_arrow_up.gif") no-repeat 0 0 scroll transparent;
+	height: 15px;
+	width:15px;
+
+}
+a.jScrollArrowUp:hover {
+	/*background-color: #f60;*/
+}
+
+a.jScrollArrowDown {
+	display: block;
+	position: absolute;
+	z-index: 1;
+	bottom: 0;
+	right: 0;
+	text-indent: -2000px;
+	overflow: hidden;
+	background: url("../../images/osx_arrow_down.gif") no-repeat 0 0 scroll transparent;
+	height: 25px;	
+	width:15px;
+}
+
+a.jScrollArrowDown:hover {
+	/*background-color: #f60;*/
+}
+a.jScrollActiveArrowButton, a.jScrollActiveArrowButton:hover {
+	/*background-color: #f00;*/
+}
+
+.osX .jScrollPaneTrack {
+	/*background: url(../images/keyboard/osx_track.gif) repeat-y;*/
+}
+.osX .jScrollPaneDrag {
+	/*background: url(../images/keyboard/osx_drag_middle.gif) repeat-y;*/
+}
+.osX .jScrollPaneDragTop {
+	/*background: url(../images/keyboard/osx_drag_top.gif) no-repeat;*/
+	height: 6px;
+}
+.osX .jScrollPaneDragBottom {
+	/*background: url(../images/keyboard/osx_drag_bottom.gif) no-repeat;*/
+	height: 7px;
+}
+.osX a.jScrollArrowUp {
+	height: 24px;
+	background: url(../../images/scroll_arrow.png) no-repeat 0 0;
+}
+.osX a.jScrollArrowUp:hover, .osX a.jScrollArrowUp.disabled {
+	background-position: -24px 0;
+}
+.osX a.jScrollArrowDown {
+	height: 24px;
+	background: url(../../images/scroll_arrow.png) no-repeat 0 100%;
+}
+.osX a.jScrollArrowDown:hover, .osX a.jScrollArrowDown.disabled {
+	background-position: -24px 100%;
+}
+
+.left .jScrollPaneTrack {
+	left: 0;
+	right: auto;
+}
+.left a.jScrollArrowUp {
+	left: 0;
+	right: auto;
+}
+.left a.jScrollArrowDown {
+	left: 0;
+	right: auto;
+}
+
+
+/* IE SPECIFIC HACKED STYLES */
+* html .osX .jScrollPaneDragBottom {
+	bottom: -1px;
+}
+/* /IE SPECIFIC HACKED STYLES */
+
+
+#audioTxt_window a.jScrollArrowDown{
+/*left:211px;*/
+
+}
+#audioTxt_window a.jScrollArrowUp{
+/*left:211px;*/
+
+}
+
+#audioBg .jScrollPaneDrag { display: block; }
+
+#audioBg .jScrollPaneTrack { background: #6C7777; }
+
+#audioBg a.jScrollArrowUp {	height: 20px; background: url("../images/keyboard/scroll_arrow_audiotext.gif") no-repeat 0px 0px scroll transparent;}
+#audioBg a.jScrollArrowDown { height: 20px; background: url("../images/keyboard/scroll_arrow_audiotext.gif") no-repeat 0px -20px scroll transparent;}
+
+#audioBg a.jScrollArrowDown.disabled { background: url("../images/keyboard/scroll_arrow_audiotext.gif") no-repeat -16px -20px scroll transparent; _background: url("../images/keyboard/scroll_arrow_down_dis.gif") no-repeat 0 0 scroll transparent !important; }
+#audioBg a.jScrollArrowUp.disabled {	background: url("../images/keyboard/scroll_arrow_audiotext.gif") no-repeat -16px -0px scroll transparent; _background: url("../images/keyboard/scroll_arrow_up_dis.gif") no-repeat 0 0 scroll transparent; }
+
+
+
+
+
+#pagenav-middle .jScrollPaneTrack {right:2px;}
+#pagenav-middle a.jScrollArrowDown,
+#pagenav-middle a.jScrollArrowUp  {right:-8px; width:25px !important;}
+
+/************************Specific for course map***********************/
+/*
+#CourseMap a.jScrollArrowUp {
+	display: block;
+	text-indent: -2000px;
+	overflow: hidden;
+	background: url("../images/keyboard/Cmapscroll_arrow.png") no-repeat 0 0 scroll transparent !important;
+	position: absolute !important;
+	top: 0px !important;
+	left: 48%;
+	width:37px !important;
+	height: 21px  !important;
+	z-index: 10 !important;
+}
+
+#CourseMap a.jScrollArrowUp:hover {background: url("../images/keyboard/Cmapscroll_arrow.png") no-repeat -41px 0 scroll transparent !important;}
+
+#CourseMap a.jScrollArrowDown {
+	display: block;
+	text-indent: -2000px;
+	overflow: hidden;
+	background: url("../images/keyboard/Cmapscroll_arrow.png") no-repeat 0 -24px scroll transparent !important;
+	position: absolute !important;
+	bottom: 0px !important;
+	left: 48%;
+	width:37px !important;
+	height: 21px  !important;
+	z-index: 10 !important;
+}
+
+#CourseMap  .jScrollPaneDrag { visibility:hidden; } 
+
+/*
+
+/*#pagenav-middle .jScrollPaneDrag {height:26px !important;}*/
